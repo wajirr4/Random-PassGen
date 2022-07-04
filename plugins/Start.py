@@ -7,7 +7,8 @@ from pyrogram.types import Message
 async def start(sree, m: Message):
     nm = m.from_user.first_name
     uid = m.from_user.id
-    a = await sree.send_message(f"Hey, [{nm}](tg://user?id={uid}) 🙋")
+    chtid = m.chat.id
+    a = await sree.send_message(chtid, f"Hey, [{nm}](tg://user?id={uid}) 🙋")
     await sleep(0.5)
     b = await a.edit_text("Starting Bot Server For You..")
     await sleep(1)
