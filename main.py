@@ -15,8 +15,9 @@ sree = Client(
 )
 
 print("Bot Logging Successfully✅")
-def main():
-    sree.send_message(-1001540434472, "Bot Started Successfully✅!")
+
+async def main(sree):
+    await sree.send_message(-1001540434472, "Bot Started Successfully✅!")
 
 
 sree.start()
