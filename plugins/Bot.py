@@ -11,17 +11,14 @@ async def passgen(sree, m: Message):
 @sree.on_message(filters.command('pgen'))
 async def radniompass(sree, m: Message):
     msgg = await m.reply('__Generating your password plish wait..__')
-    for i in range(3):
-        a = random.choice(ALPHA)
-    for i in range(3):
-        b = random.choice(alpha)
-    for i in range(2):
-        c = random.choice(NUMARIC)
-    for i in range(2):
-        symbol = string.punctuation
-        d = random.choice(symbol)
+    
+    a = random.choice(ALPHA)    
+    b = random.choice(alpha)   
+    c = random.choice(NUMARIC)    
+    symbol = string.punctuation
+    d = random.choice(symbol)
     for i in range(10):
-        Pass = (f"{a}{b}{c}{d}")
+    Pass = (f"{a}{b}{c}{d}")
     P = ''.join(random.choice(Pass) for _ in range(10))
     await msgg.edit_text(f"Your Password is {P}")
   
