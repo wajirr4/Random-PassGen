@@ -18,7 +18,7 @@ async def radniompass(sree, m: Message):
     symbol = string.punctuation
     d = random.choice(symbol)
     for i in range(10):
-    Pass = (f"{a}{b}{c}{d}")
+    Pass = a+b+c+d
     P = ''.join(random.choice(Pass) for _ in range(10))
     await msgg.edit_text(f"Your Password is {P}")
   
