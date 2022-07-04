@@ -5,9 +5,6 @@ from pyrogram.types import Message
 from resources.str import (NUMARIC, alpha, ALPHA)
 
 
-@sree.on_message(filters.command('start', prefixes="/"))
-async def passgen(sree, m: Message):
-    await sree.send_message(m.chat.id, "i am jinda sur") 
 @sree.on_message(filters.command('pgen'))
 async def radniompass(sree, m: Message):
     msgg = await m.reply('__Generating your password plish wait..__')
