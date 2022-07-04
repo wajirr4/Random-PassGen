@@ -4,12 +4,13 @@
 
 from pyrogram import Client
 from pyrogram import idle
+from config import (API_ID, API_HASH, BOT_TOKEN)
 
 sree = Client(
     ":memory:",
-    api_id=13014026,
-    api_hash="c1825666523834e125bcb8cf9f7b6318",
-    bot_token="5529184521:AAHfPAutxeKb3AZ_kxiMcvTmT7_NIMyPZWw",
+    api_id=API_ID,
+    api_hash=API_HASH,
+    bot_token=BOT_TOKEN,
     plugins=dict(root="plugins")
 )
 
