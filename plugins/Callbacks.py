@@ -6,4 +6,4 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 def close_(Client, cb: CallbackQuery):
     if cb.data == "close_":
         cb.answer("Menu Closed!", show_alert=True)
-        cb.m.delete()
+        cb.message.delete()
