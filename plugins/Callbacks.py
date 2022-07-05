@@ -12,4 +12,4 @@ async def close_(Client, cb: CallbackQuery):
         msgg = await cb.message.edit_text('__Generating another password plish wait..__')   
         Pass = string.ascii_letters + string.digits + string.punctuation
         P = ''.join(random.choice(Pass) for _ in range(10))
-        await cb.msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>")
+        await cb.msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="ping_")]]))
