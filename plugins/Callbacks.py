@@ -5,5 +5,5 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, 
 @sree.on_callback_query()
 def close_(Client, cb: CallbackQuery):
     if cb.data == "close_":
-        cb.answer("Menu Closed!", show_alert=True)
+        cb.answer("Menu Closed!")
         cb.message.delete()
