@@ -27,8 +27,8 @@ async def close_(Client, cb: CallbackQuery):
         await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="ping_")]]))
 '''
 
-@app.on_callback_query(filters.regex("chngpass1"))
-async def forceclose_command(_, CallbackQuery):
+@sree.on_callback_query(filters.regex("chngpass1"))
+async def command(_, CallbackQuery):
     Pass = string.ascii_letters + string.digits + string.punctuation
     P = ''.join(random.choice(Pass) for _ in range(10))
     callback_data = CallbackQuery.data.strip()
