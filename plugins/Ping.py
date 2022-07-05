@@ -17,4 +17,4 @@ async def ping(sree, m: Message):
     await sleep(1.5)
     pong1 = (datetime.now() - start).microseconds / 1000
     pong2 = str(round((end_time - start_time) * 1000, 3)) + " ms"
-    await b.edit_text("<b>Ping Pong! 🏓\n\nPing-1 Time✅: <code>{}</code>\nPing-2 Time✅</b>: <code>{}</code>".format(pong1, pong2))             
+    await b.edit_text("<b>Ping Pong! 🏓\n\nPing-1 Time✅: <code>{} ms</code>\nPing-2 Time✅</b>: <code>{}</code>".format(pong1, pong2))             
