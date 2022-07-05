@@ -1,7 +1,7 @@
 import random, string
 from pyrogram import Client as sree
 from pyrogram import filters
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from resources.str import (NUMARIC, alpha, ALPHA)
 
 
@@ -11,5 +11,5 @@ async def radniompass(sree, m: Message):
     
     Pass = string.ascii_letters + string.digits + string.punctuation
     P = ''.join(random.choice(Pass) for _ in range(10))
-    await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>")
+    await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="ping_")]]))
   
