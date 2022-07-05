@@ -14,6 +14,7 @@ sree = Client(
     plugins=dict(root="plugins")
 )
 
+print("Try To Logging.....")
 print("Bot Logging Successfully✅")
 sree.start()
 idle()
