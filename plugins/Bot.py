@@ -11,5 +11,5 @@ async def radniompass(sree, m: Message):
     
     Pass = string.ascii_letters + string.digits + string.punctuation
     P = ''.join(random.choice(Pass) for _ in range(10))
-    await msgg.edit_text(f"Your Password is Generated Successfully✅\n\nPassword:- `{P}`")
+    await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>")
   
