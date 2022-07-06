@@ -1,3 +1,6 @@
+import re
+from sys import argv
+import platform
 import time
 from datetime import datetime
 from asyncio import sleep
@@ -5,6 +8,30 @@ from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message
 
+
+def get_readable_time(seconds: int) -> str:
+    count = 0
+    ping_time = ""
+    time_list = []
+    time_suffix_list = ["s", "m", "h", "days"]
+
+    while count < 4:
+        count += 1
+        remainder, result = divmod(seconds, 60) if count < 3 else divmod(seconds, 24)
+        if seconds == 0 and remainder == 0:
+            break
+        time_list.append(int(result))
+        seconds = int(remainder)
+
+    for x in range(len(time_list)):
+        time_list[x] = str(time_list[x]) + time_suffix_list[x]
+    if len(time_list) == 4:
+        ping_time += time_list.pop() + ", "
+
+    time_list.reverse()
+    ping_time += ":".join(time_list)
+
+    return ping_time
 
 @sree.on_message(filters.command(["ping", "p", "on"]))
 async def ping(sree, m: Message):
@@ -15,6 +42,8 @@ async def ping(sree, m: Message):
     await sleep(1) 
     b = await a.edit_text("<b><i>Pinging...</i></b>")
     await sleep(1.5)
+    uptime = get_readable_time((time.time() - start_time))
+    py = platform.python_version()
     pong1 = (datetime.now() - start).microseconds / 1000
     pong2 = str(round((end_time - start_time) * 1000, 3)) + " ms"
-    await b.edit_text("<b>Ping Pong!🏓\n\n✅Server Ping: <code>{} ms</code>\n✅Bot Ping</b>: <code>{}</code>".format(pong1, pong2))             
+    await b.edit_text("<b>Ping Pong!🏓\n\n✅Server Ping: <code>{} ms</code>\n✅Bot Ping</b>: <code>{}</code>\n✅Uptime: <code>{}</code>\n✅Python Version: <code>{}</code>".format(pong1, pong2, uptime, py))             
