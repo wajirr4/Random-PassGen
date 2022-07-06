@@ -7,7 +7,7 @@ from asyncio import sleep
 from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message
-from . import lol
+from __main__ import lol
 
 
 def get_readable_time(seconds: int) -> str:
