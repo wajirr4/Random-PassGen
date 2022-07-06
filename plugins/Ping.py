@@ -7,6 +7,7 @@ from asyncio import sleep
 from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message
+from . import lol
 
 
 def get_readable_time(seconds: int) -> str:
@@ -42,7 +43,7 @@ async def ping(sree, m: Message):
     await sleep(1) 
     b = await a.edit_text("<b><i>Pinging...</i></b>")
     await sleep(1.5)
-    uptime = get_readable_time((time.time() - start_time))
+    uptime = get_readable_time((time.time() - lol))
     py = platform.python_version()
     pong1 = (datetime.now() - start).microseconds / 1000
     pong2 = str(round((end_time - start_time) * 1000, 3)) + " ms"
