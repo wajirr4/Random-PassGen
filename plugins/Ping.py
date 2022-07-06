@@ -41,7 +41,7 @@ async def ping(sree, m: Message):
     a = await m.reply("⚡")
     end_time = time.time()
     await sleep(1) 
-    b = await a.edit_text("<u><i>Pinging... wait!!</i></u>")
+    b = await a.edit_text("<i>Pinging... wait!!</i>")
     await sleep(1.5)
     uptime = get_readable_time((time.time() - lol))
     py = platform.python_version()
