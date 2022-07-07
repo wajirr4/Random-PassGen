@@ -13,6 +13,57 @@ async def radniompass(sree, m: Message):
     P = ''.join(random.choice(Pass) for _ in range(10))
     await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
 
+
+##----------------------------------
+
+#Selecting password generating mode {}
+@sree.on_message(filters.regex('randpass1'))
+async def rndpas1(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass2'))
+async def rndpas2(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass3'))
+async def rndpas3(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass4'))
+async def rndpas4(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass5'))
+async def rndpas5(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass6'))
+async def rndpas6(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass7'))
+async def rndpas7(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass8'))
+async def rndpas8(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass9'))
+async def rndpas9(sree, m: Message):
+    await m.reply('')
+
+@sree.on_message(filters.regex('randpass10'))
+async def rndpas10(sree, m: Message):
+    await m.reply('')
+
+
+
+
+
+##----------------------------------
+
+
 ## Reply keyboard {10}
 @sree.on_message(filters.regex('pgen1') & filters.private)
 async def randompass1(sree, m: Message):
