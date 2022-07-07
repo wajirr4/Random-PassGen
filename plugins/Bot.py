@@ -40,42 +40,172 @@ async def radniompass(sree, m: Message):
 #Selecting password generating mode {}
 @sree.on_message(filters.regex('randpass1'))
 async def rndpas1(sree, m: Message):
+    b1 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass2'))
 async def rndpas2(sree, m: Message):
+    b2 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass3'))
 async def rndpas3(sree, m: Message):
+    b3 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass4'))
 async def rndpas4(sree, m: Message):
+    b4 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass5'))
 async def rndpas5(sree, m: Message):
+    b5 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass6'))
 async def rndpas6(sree, m: Message):
+    b6 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass7'))
 async def rndpas7(sree, m: Message):
+    b7 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass8'))
 async def rndpas8(sree, m: Message):
+    b8 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass9'))
 async def rndpas9(sree, m: Message):
+    b9 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 @sree.on_message(filters.regex('randpass10'))
 async def rndpas10(sree, m: Message):
+    b10 = [
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+            ('')
+        ],
+        [
+            ('')
+        ],
+    ]
     await m.reply('')
 
 
