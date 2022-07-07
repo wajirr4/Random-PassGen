@@ -133,9 +133,129 @@ async def close_(Client, cb: CallbackQuery):
         await cb.answer("Password Changed Successfully✅!")       
         await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P20}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass20")]]))
 
+    #---------change pass for {8} digits-------
+    elif cb.data == "chngpass21":
+        Pass21 = string.ascii_letters + string.digits
+        P21 = ''.join(random.choice(Pass21) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P21}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass21")]]))
+    elif cb.data == "chngpass22":
+        Pass22 = string.ascii_letters + string.punctuation
+        P22 = ''.join(random.choice(Pass22) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P22}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass22")]]))
+    elif cb.data == "chngpass23":
+        Pass23 = string.ascii_letters + string.digits + string.punctuation
+        P23 = ''.join(random.choice(Pass23) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P23}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass23")]]))
+    elif cb.data == "chngpass24":
+        Pass24 = string.ascii_uppercase + string.digits
+        P24 = ''.join(random.choice(Pass24) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P24}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass24")]]))
+    elif cb.data == "chngpass25":
+        Pass25 = string.ascii_lowercase + string.digits
+        P25 = ''.join(random.choice(Pass25) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P25}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass25")]]))
+    elif cb.data == "chngpass26":
+        Pass26 = string.ascii_lowercase + string.punctuation
+        P26 = ''.join(random.choice(Pass26) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P26}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass26")]]))
+    elif cb.data == "chngpass27":
+        Pass27 = string.ascii_uppercase + string.punctuation
+        P27 = ''.join(random.choice(Pass27) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P27}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass27")]]))
+    elif cb.data == "chngpass28":
+        Pass28 = string.ascii_lowercase + string.digits + string.punctuation
+        P28 = ''.join(random.choice(Pass28) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P28}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass28")]]))
+    elif cb.data == "chngpass29":
+        Pass29 = string.ascii_uppercase + string.digits + string.punctuation
+        P29 = ''.join(random.choice(Pass29) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P29}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass29")]]))
+    elif cb.data == "chngpass30":
+        Pass30 = string.punctuation + string.digits
+        P30 = ''.join(random.choice(Pass30) for _ in range(8))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P30}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass30")]]))
 
-
-
+    #---------change pass for {12} digits-------
+    elif cb.data == "chngpass31":
+        Pass31 = string.ascii_letters + string.digits
+        P31 = ''.join(random.choice(Pass31) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P31}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass31")]]))
+    elif cb.data == "chngpass32":
+        Pass32 = string.ascii_letters + string.punctuation
+        P32 = ''.join(random.choice(Pass32) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P32}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass32")]]))
+    elif cb.data == "chngpass33":
+        Pass33 = string.ascii_letters + string.digits + string.punctuation
+        P33 = ''.join(random.choice(Pass33) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P33}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass33")]]))
+    elif cb.data == "chngpass34":
+        Pass34 = string.ascii_uppercase + string.digits
+        P34 = ''.join(random.choice(Pass34) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P34}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass34")]]))
+    elif cb.data == "chngpass35":
+        Pass35 = string.ascii_lowercase + string.digits
+        P35 = ''.join(random.choice(Pass35) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P35}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass35")]]))
+    elif cb.data == "chngpass36":
+        Pass36 = string.ascii_lowercase + string.punctuation
+        P36 = ''.join(random.choice(Pass36) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P36}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass36")]]))
+    elif cb.data == "chngpass37":
+        Pass37 = string.ascii_uppercase + string.punctuation
+        P37 = ''.join(random.choice(Pass37) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P37}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass37")]]))
+    elif cb.data == "chngpass38":
+        Pass38 = string.ascii_lowercase + string.digits + string.punctuation
+        P38 = ''.join(random.choice(Pass38) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P38}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass38")]]))
+    elif cb.data == "chngpass39":
+        Pass39 = string.ascii_uppercase + string.digits + string.punctuation
+        P39 = ''.join(random.choice(Pass39) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P39}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass39")]]))
+    elif cb.data == "chngpass40":
+        Pass40 = string.punctuation + string.digits
+        P40 = ''.join(random.choice(Pass40) for _ in range(12))
+        await cb.message.edit_text('__Generating another password plish wait..__')
+        await cb.answer("Password Changed Successfully✅!")       
+        await cb.message.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P40}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass40")]]))
 
 
 
