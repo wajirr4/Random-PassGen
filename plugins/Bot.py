@@ -37,10 +37,47 @@ async def radniompass(sree, m: Message):
 
 
 
+
+##-----------------–-———------------
+
+
+
+@sree.on_message(filters.regex('••Go To Home Menu••') & filters.private)
+async def home(sree, m: Message):
+    homebtn = [
+        [
+            ('Password-1')
+            ('Password-2')
+        ],
+        [
+            ('Password-3')
+            ('Password-4')
+        ],
+        [
+            ('Password-5')
+            ('Password-6')
+        ],
+        [
+            ('Password-7')
+            ('Password-8')
+        ],
+        [
+            ('Password-9')
+            ('Password-10')
+        ],
+    ]
+    await m.reply('')
+
+
+
+
 ##----------------------------------
 
+
+
+
 #Selecting password generating mode {}
-@sree.on_message(filters.regex('Password-1'))
+@sree.on_message(filters.regex('Password-1') & filters.private)
 async def rndpas1(sree, m: Message):
     b1 = [
         [
@@ -52,12 +89,12 @@ async def rndpas1(sree, m: Message):
             ('Password-1 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-2'))
+@sree.on_message(filters.regex('Password-2') & filters.private)
 async def rndpas2(sree, m: Message):
     b2 = [
         [
@@ -69,12 +106,12 @@ async def rndpas2(sree, m: Message):
             ('Password-2 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-3'))
+@sree.on_message(filters.regex('Password-3') & filters.private)
 async def rndpas3(sree, m: Message):
     b3 = [
         [
@@ -86,12 +123,12 @@ async def rndpas3(sree, m: Message):
             ('Password-3 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-4'))
+@sree.on_message(filters.regex('Password-4') & filters.private)
 async def rndpas4(sree, m: Message):
     b4 = [
         [
@@ -103,12 +140,12 @@ async def rndpas4(sree, m: Message):
             ('Password-4 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-5'))
+@sree.on_message(filters.regex('Password-5') & filters.private)
 async def rndpas5(sree, m: Message):
     b5 = [
         [
@@ -120,12 +157,12 @@ async def rndpas5(sree, m: Message):
             ('Password-5 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-6'))
+@sree.on_message(filters.regex('Password-6') & filters.private)
 async def rndpas6(sree, m: Message):
     b6 = [
         [
@@ -137,12 +174,12 @@ async def rndpas6(sree, m: Message):
             ('Password-6 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-7'))
+@sree.on_message(filters.regex('Password-7') & filters.private)
 async def rndpas7(sree, m: Message):
     b7 = [
         [
@@ -154,12 +191,12 @@ async def rndpas7(sree, m: Message):
             ('Password-7 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-8'))
+@sree.on_message(filters.regex('Password-8') & filters.private)
 async def rndpas8(sree, m: Message):
     b8 = [
         [
@@ -171,12 +208,12 @@ async def rndpas8(sree, m: Message):
             ('Password-8 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-9'))
+@sree.on_message(filters.regex('Password-9') & filters.private)
 async def rndpas9(sree, m: Message):
     b9 = [
         [
@@ -188,12 +225,12 @@ async def rndpas9(sree, m: Message):
             ('Password-9 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
 
-@sree.on_message(filters.regex('Password-10'))
+@sree.on_message(filters.regex('Password-10') & filters.private)
 async def rndpas10(sree, m: Message):
     b10 = [
         [
@@ -205,7 +242,7 @@ async def rndpas10(sree, m: Message):
             ('Password-10 (12)')
         ],
         [
-            ('')
+            ('••Go To Home Menu••')
         ],
     ]
     await m.reply('')
