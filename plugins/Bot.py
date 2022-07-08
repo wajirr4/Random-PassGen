@@ -1,3 +1,6 @@
+# Powered by @HYPER_AD13 | @ShiningOff
+# Dear Pero ppls Plish Don't remove this line from here🌚
+
 import random, string
 from pyrogram import Client as sree
 from pyrogram import filters
