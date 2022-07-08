@@ -13,24 +13,24 @@ async def radniompass(sree, m: Message):
     msgg = await m.reply('__Generating your password plish wait..__')
     btn1 = [
         [
-            ('Password-1')
-            ('Password-2')
+            ('Password-1'),
+            ('Password-2'),
         ],
         [
-            ('Password-3')
-            ('Password-4')
+            ('Password-3'),
+            ('Password-4'),
         ],
         [
-            ('Password-5')
-            ('Password-6')
+            ('Password-5'),
+            ('Password-6'),
         ],
         [
-            ('Password-7')
-            ('Password-8')
+            ('Password-7'),
+            ('Password-8'),
         ],
         [
-            ('Password-9')
-            ('Password-10')
+            ('Password-9'),
+            ('Password-10'),
         ],
     ]
     Pass = string.ascii_letters + string.digits + string.punctuation
@@ -49,24 +49,24 @@ async def radniompass(sree, m: Message):
 async def home(sree, m: Message):
     homebtn = [
         [
-            ('Password-1')
-            ('Password-2')
+            ('Password-1'),
+            ('Password-2'),
         ],
         [
-            ('Password-3')
-            ('Password-4')
+            ('Password-3'),
+            ('Password-4'),
         ],
         [
-            ('Password-5')
-            ('Password-6')
+            ('Password-5'),
+            ('Password-6'),
         ],
         [
-            ('Password-7')
-            ('Password-8')
+            ('Password-7'),
+            ('Password-8'),
         ],
         [
-            ('Password-9')
-            ('Password-10')
+            ('Password-9'),
+            ('Password-10'),
         ],
     ]
     await m.reply('')
@@ -84,12 +84,12 @@ async def home(sree, m: Message):
 async def rndpas1(sree, m: Message):
     b1 = [
         [
-            ('Password-1 (6)')
-            ('Password-1 (8)')
+            ('Password-1 (6)'),
+            ('Password-1 (8)'),
         ],
         [
-            ('Password-1 (10)')
-            ('Password-1 (12)')
+            ('Password-1 (10)'),
+            ('Password-1 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -101,12 +101,12 @@ async def rndpas1(sree, m: Message):
 async def rndpas2(sree, m: Message):
     b2 = [
         [
-            ('Password-2 (6)')
-            ('Password-2 (8)')
+            ('Password-2 (6)'),
+            ('Password-2 (8)'),
         ],
         [
-            ('Password-2 (10)')
-            ('Password-2 (12)')
+            ('Password-2 (10)'),
+            ('Password-2 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -118,12 +118,12 @@ async def rndpas2(sree, m: Message):
 async def rndpas3(sree, m: Message):
     b3 = [
         [
-            ('Password-3 (6)')
-            ('Password-3 (8)')
+            ('Password-3 (6)'),
+            ('Password-3 (8)'),
         ],
         [
-            ('Password-3 (10)')
-            ('Password-3 (12)')
+            ('Password-3 (10)'),
+            ('Password-3 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -135,12 +135,12 @@ async def rndpas3(sree, m: Message):
 async def rndpas4(sree, m: Message):
     b4 = [
         [
-            ('Password-4 (6)')
-            ('Password-4 (8)')
+            ('Password-4 (6)'),
+            ('Password-4 (8)'),
         ],
         [
-            ('Password-4 (10)')
-            ('Password-4 (12)')
+            ('Password-4 (10)'),
+            ('Password-4 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -152,12 +152,12 @@ async def rndpas4(sree, m: Message):
 async def rndpas5(sree, m: Message):
     b5 = [
         [
-            ('Password-5 (6)')
-            ('Password-5 (8)')
+            ('Password-5 (6)'),
+            ('Password-5 (8)'),
         ],
         [
-            ('Password-5 (10)')
-            ('Password-5 (12)')
+            ('Password-5 (10)'),
+            ('Password-5 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -169,12 +169,12 @@ async def rndpas5(sree, m: Message):
 async def rndpas6(sree, m: Message):
     b6 = [
         [
-            ('Password-6 (6)')
-            ('Password-6 (8)')
+            ('Password-6 (6)'),
+            ('Password-6 (8)'),
         ],
         [
-            ('Password-6 (10)')
-            ('Password-6 (12)')
+            ('Password-6 (10)'),
+            ('Password-6 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -186,12 +186,12 @@ async def rndpas6(sree, m: Message):
 async def rndpas7(sree, m: Message):
     b7 = [
         [
-            ('Password-7 (6)')
-            ('Password-7 (8)')
+            ('Password-7 (6)'),
+            ('Password-7 (8)'),
         ],
         [
-            ('Password-7 (10)')
-            ('Password-7 (12)')
+            ('Password-7 (10)'),
+            ('Password-7 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -203,12 +203,12 @@ async def rndpas7(sree, m: Message):
 async def rndpas8(sree, m: Message):
     b8 = [
         [
-            ('Password-8 (6)')
-            ('Password-8 (8)')
+            ('Password-8 (6)'),
+            ('Password-8 (8)'),
         ],
         [
-            ('Password-8 (10)')
-            ('Password-8 (12)')
+            ('Password-8 (10)'),
+            ('Password-8 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -220,12 +220,12 @@ async def rndpas8(sree, m: Message):
 async def rndpas9(sree, m: Message):
     b9 = [
         [
-            ('Password-9 (6)')
-            ('Password-9 (8)')
+            ('Password-9 (6)'),
+            ('Password-9 (8)'),
         ],
         [
-            ('Password-9 (10)')
-            ('Password-9 (12)')
+            ('Password-9 (10)'),
+            ('Password-9 (12)'),
         ],
         [
             ('••Go To Home Menu••')
@@ -237,12 +237,12 @@ async def rndpas9(sree, m: Message):
 async def rndpas10(sree, m: Message):
     b10 = [
         [
-            ('Password-10 (6)')
-            ('Password-10 (8)')
+            ('Password-10 (6)'),
+            ('Password-10 (8)'),
         ],
         [
-            ('Password-10 (10)')
-            ('Password-10 (12)')
+            ('Password-10 (10)'),
+            ('Password-10 (12)'),
         ],
         [
             ('••Go To Home Menu••')
