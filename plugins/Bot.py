@@ -10,6 +10,7 @@ from resources.string import (pgentxt)
 
 @sree.on_message(filters.command(['password', 'passgen', 'pgen']))
 async def radniompass(sree, m: Message):
+    nm = m.from_user.first_name
     #msgg = await m.reply('__Generating your password plish wait..__')
     btn1 = [
         [
@@ -36,7 +37,7 @@ async def radniompass(sree, m: Message):
     #Pass = string.ascii_letters + string.digits + string.punctuation
     #P = ''.join(random.choice(Pass) for _ in range(10))
     #await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
-    await m.reply(pgentxt, reply_markup=ReplyKeyboardMarkup(btn1, one_time_keyboard=True, resize_keyboard=True))
+    await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1, one_time_keyboard=True, resize_keyboard=True))
 
 
 
