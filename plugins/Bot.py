@@ -6,6 +6,7 @@ from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
 from resources.string import (pgentxt)
+from resources.replyKeyboard import (btn1)
 
 
 @sree.on_message(filters.command(['password', 'passgen', 'pgen']))
@@ -14,34 +15,13 @@ async def radniompass(sree, m: Message):
     if m.chat.id != m.from_user.id:
         await m.reply('Use it in bot pm')
     #msgg = await m.reply('__Generating your password plish wait..__')
-    btn1 = [
-        [
-            ('Password-1'),
-            ('Password-2'),
-        ],
-        [
-            ('Password-3'),
-            ('Password-4'),
-        ],
-        [
-            ('Password-5'),
-            ('Password-6'),
-        ],
-        [
-            ('Password-7'),
-            ('Password-8'),
-        ],
-        [
-            ('Password-9'),
-            ('Password-10'),
-        ],
-    ]
+    
     #Pass = string.ascii_letters + string.digits + string.punctuation
     #P = ''.join(random.choice(Pass) for _ in range(10))
     #await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
 
     if m.chat.id == m.from_user.id:
-        await m.reply(pgentxt, reply_markup=ReplyKeyboardMarkup(btn1))
+        await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1))
 
 
 
