@@ -32,6 +32,7 @@ async def radniompass(sree, m: Message):
 
 @sree.on_message(filters.regex('••Go To Home Menu••') & filters.private)
 async def home(sree, m: Message):
+    nm = m.from_user.first_name
     await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1))
 
 
@@ -110,70 +111,70 @@ async def rndpas10(sree, m: Message):
 
 
 ## Reply keyboard {10}
-@sree.on_message(filters.regex('Password-1 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-1-10') & filters.private)
 async def randompass1(sree, m: Message):
     msgg1 = await m.reply('__Generating your password plish wait..__')   
     Pass1 = string.ascii_letters + string.digits
     P1 = ''.join(random.choice(Pass1) for _ in range(10))
     await msgg1.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P1}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
 
-@sree.on_message(filters.regex('Password-2 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-2-10') & filters.private)
 async def randompass2(sree, m: Message):
     msgg2 = await m.reply('__Generating your password plish wait..__')   
     Pass2 = string.ascii_letters + string.punctuation 
     P2 = ''.join(random.choice(Pass2) for _ in range(10))
     await msgg2.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P2}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass2")]]))
 
-@sree.on_message(filters.regex('Password-3 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-3-10') & filters.private)
 async def randompass3(sree, m: Message):
     msgg3 = await m.reply('__Generating your password plish wait..__')   
     Pass3 = string.ascii_letters + string.digits + string.punctuation
     P3 = ''.join(random.choice(Pass3) for _ in range(10))
     await msgg3.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P3}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass3")]]))
 
-@sree.on_message(filters.regex('Password-4 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-4-10') & filters.private)
 async def randompass4(sree, m: Message):
     msgg4 = await m.reply('__Generating your password plish wait..__')   
     Pass4 = string.ascii_uppercase + string.digits
     P4 = ''.join(random.choice(Pass4) for _ in range(10))
     await msgg4.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P4}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass4")]]))
 
-@sree.on_message(filters.regex('Password-5 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-5-10') & filters.private)
 async def randompass5(sree, m: Message):
     msgg5 = await m.reply('__Generating your password plish wait..__')   
     Pass5 = string.ascii_lowercase + string.digits
     P5 = ''.join(random.choice(Pass5) for _ in range(10))
     await msgg5.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P5}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass5")]]))
 
-@sree.on_message(filters.regex('Password-6 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-6-10') & filters.private)
 async def randompass6(sree, m: Message):
     msgg6 = await m.reply('__Generating your password plish wait..__')   
     Pass6 = string.ascii_lowercase + string.punctuation
     P6 = ''.join(random.choice(Pass6) for _ in range(10))
     await msgg6.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P6}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass6")]]))
 
-@sree.on_message(filters.regex('Password-7 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-7-10') & filters.private)
 async def randompass7(sree, m: Message):
     msgg7 = await m.reply('__Generating your password plish wait..__')   
     Pass7 = string.ascii_uppercase + string.punctuation
     P7 = ''.join(random.choice(Pass7) for _ in range(10))
     await msgg7.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P7}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass7")]]))
 
-@sree.on_message(filters.regex('Password-8 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-8-10') & filters.private)
 async def randompass8(sree, m: Message):
     msgg8 = await m.reply('__Generating your password plish wait..__')   
     Pass8 = string.ascii_lowercase + string.digits + string.punctuation
     P8 = ''.join(random.choice(Pass8) for _ in range(10))
     await msgg8.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P8}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass8")]]))
 
-@sree.on_message(filters.regex('Password-9 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-9-10') & filters.private)
 async def randompass9(sree, m: Message):
     msgg9 = await m.reply('__Generating your password plish wait..__')   
     Pass9 = string.ascii_uppercase + string.digits + string.punctuation
     P9 = ''.join(random.choice(Pass9) for _ in range(10))
     await msgg9.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P9}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass9")]]))
 
-@sree.on_message(filters.regex('Password-10 (10)') & filters.private)
+@sree.on_message(filters.regex('Password-10-10') & filters.private)
 async def randompass10(sree, m: Message):
     msgg10 = await m.reply('__Generating your password plish wait..__')   
     Pass10 = string.punctuation + string.digits
