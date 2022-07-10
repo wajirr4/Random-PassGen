@@ -29,12 +29,12 @@ btn1 = [
 
 b1 = [
     [
-        ('Password-1 (6)'),
-        ('Password-1 (8)'),
+        ('GenPass-1 (6)'),
+        ('Generates-1 (8)'),
     ],
     [
-        ('Generate-1-10'),
-        ('Password-1 (12)'),
+        ('Generate-1 (10)'),
+        ('GenPas-1 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -43,12 +43,12 @@ b1 = [
 
 b2 = [
     [
-        ('Password-2 (6)'),
-        ('Password-2 (8)'),
+        ('GenPass-2 (6)'),
+        ('Generates-2 (8)'),
     ],
     [
-        ('Password-2 (10)'),
-        ('Password-2 (12)'),
+        ('Generate-2 (10)'),
+        ('GenPas-2 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -58,12 +58,12 @@ b2 = [
 
 b3 = [
     [
-        ('Password-3 (6)'),
-        ('Password-3 (8)'),
+        ('GenPass-3 (6)'),
+        ('Generates-3 (8)'),
     ],
     [
-        ('Password-3 (10)'),
-        ('Password-3 (12)'),
+        ('Generate-3 (10)'),
+        ('GenPas-3 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -73,12 +73,12 @@ b3 = [
 
 b4 = [
     [
-        ('Password-4 (6)'),
-        ('Password-4 (8)'),
+        ('GenPass-4 (6)'),
+        ('Generates-4 (8)'),
     ],
     [
-        ('Password-4 (10)'),
-        ('Password-4 (12)'),
+        ('Generate-4 (10)'),
+        ('GenPas-4 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -88,12 +88,12 @@ b4 = [
 
 b5 = [
     [
-        ('Password-5 (6)'),
-        ('Password-5 (8)'),
+        ('GenPass-5 (6)'),
+        ('Generates-5 (8)'),
     ],
     [
-        ('Password-5 (10)'),
-        ('Password-5 (12)'),
+        ('Generate-5 (10)'),
+        ('GenPas-5 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -102,12 +102,12 @@ b5 = [
 
 b6 = [
     [
-        ('Password-6 (6)'),
-        ('Password-6 (8)'),
+        ('GenPass-6 (6)'),
+        ('Generates-6 (8)'),
     ],
     [
-        ('Password-6 (10)'),
-        ('Password-6 (12)'),
+        ('Generate-6 (10)'),
+        ('GenPas-6 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -117,12 +117,12 @@ b6 = [
 
 b7 = [
     [
-        ('Password-7 (6)'),
-        ('Password-7 (8)'),
+        ('GenPass-7 (6)'),
+        ('Generates-7 (8)'),
     ],
     [
-        ('Password-7 (10)'),
-        ('Password-7 (12)'),
+        ('Generate-7 (10)'),
+        ('GenPas-7 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -132,12 +132,12 @@ b7 = [
 
 b8 = [
     [
-        ('Password-8 (6)'),
-        ('Password-8 (8)'),
+        ('GenPass-8 (6)'),
+        ('Generates-8 (8)'),
     ],
     [
-        ('Password-8 (10)'),
-        ('Password-8 (12)'),
+        ('Generate-8 (10)'),
+        ('GenPas-8 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -147,12 +147,12 @@ b8 = [
 
 b9 = [
     [
-        ('Password-9 (6)'),
-        ('Password-9 (8)'),
+        ('GenPass-9 (6)'),
+        ('Generates-9 (8)'),
     ],
     [
-        ('Password-9 (10)'),
-        ('Password-9 (12)'),
+        ('Generate-9 (10)'),
+        ('GenPas-9 (12)'),
     ],
     [
         ('••Go To Home Menu••')
@@ -162,12 +162,12 @@ b9 = [
 
 b10 = [
     [
-        ('Password-10 (6)'),
-        ('Password-10 (8)'),
+        ('GenPass-10 (6)'),
+        ('Generates-10 (8)'),
     ],
     [
-        ('Password-10 (10)'),
-        ('Password-10 (12)'),
+        ('Generate-10 (10)'),
+        ('GenPas-10 (12)'),
     ],
     [
         ('••Go To Home Menu••')
