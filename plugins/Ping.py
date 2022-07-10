@@ -6,7 +6,7 @@ from datetime import datetime
 from asyncio import sleep
 from pyrogram import Client as sree
 from pyrogram import filters, __version__ as pyrov
-from pyrogram.types import Message
+from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from __main__ import lol
 
 
@@ -47,4 +47,7 @@ async def ping(sree, m: Message):
     py = platform.python_version()
     pong1 = (datetime.now() - start).microseconds / 1000
     pong2 = str(round((end_time - start_time) * 1000, 3)) + " ms"
-    await b.edit_text("<b>❍ <u>Ping Pong!</u>🏓</b>\n\n➥ <u><i>Yeah Bot Is Running Perfectly</i><u>!!✨<b>\n\n❅Server Ping: <code>{} ms</code>\n❅Bot Ping</b>: <code>{}</code>\n❅Uptime: <code>{}</code>\n❅Python Version: <code>{}</code>\n❅Pyrogram Version: <code>{}</code>".format(pong1, pong2, uptime, py, pyrov))             
+    ok = await b.edit_text("<b>❍ <u>Ping Pong!</u>🏓</b>\n\n➥ <u><i>Yeah Bot Is Running Perfectly</i><u>!!✨<b>\n\n❅Server Ping: <code>{} ms</code>\n❅Bot Ping</b>: <code>{}</code>\n❅Uptime: <code>{}</code>\n❅Python Version: <code>{}</code>\n❅Pyrogram Version: <code>{}</code>".format(pong1, pong2, uptime, py, pyrov), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Close", callback_data="close_")]]))
+    await m.delete()
+    await sleep(120)
+    await ok.delete()            
