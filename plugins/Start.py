@@ -1,7 +1,7 @@
 from asyncio import sleep
 import platform
 from resources.string import statxt
-from resources.Buttons import strtbtn
+from plugins.Buttons import strtbtn
 from pyrogram import Client as sree
 from pyrogram import filters, __version__ as pyro
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
