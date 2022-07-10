@@ -2,28 +2,43 @@
 # Dear Pero ppls Plish Don't remove this line from here🌚
 
 import random, string
+from asyncio import sleep as s
 from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
-from resources.string import (pgentxt, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10)
+from resources.string import (pgentxt, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, pmmsg, grpmsg)
 from resources.replyKeyboard import (btn1, b10, b9, b8, b7, b6, b5, b4, b3, b2, b1)
 
 
 @sree.on_message(filters.command(['password', 'passgen', 'pgen']))
 async def radniompass(sree, m: Message):
     nm = m.from_user.first_name
+    chtID = m.chat.id
     if m.chat.id != m.from_user.id:
-        await m.reply('Use it in bot pm')
-    #msgg = await m.reply('__Generating your password plish wait..__')
-    
-    #Pass = string.ascii_letters + string.digits + string.punctuation
-    #P = ''.join(random.choice(Pass) for _ in range(10))
-    #await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
-
+        l = await m.reply('<i>Generating Your Answer 🥲..</i>')
+        await s(1.5)
+        k = await l.edit_text(grpmsg.format(nm, chtID), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?start=true')],[InlineKeyboardButton("Close Menu!", callback_data="close_")]]))       
+        await m.delete()
+        await s(20)
+        await k.delete()
     if m.chat.id == m.from_user.id:
         await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1, one_time_keyboard=True))
 
 
+@sree.on_message(filters.command(['gen', 'create', 'sgen']))
+async def radniompass(sree, m: Message):
+    nm = m.from_user.first_name
+    chtID = m.chat.idl
+    if m.chat.id != m.from_user.id:
+        msgg = await m.reply('__Generating your password plish wait..__')   
+        Pass = string.ascii_letters + string.digits + string.punctuation
+        P = ''.join(random.choice(Pass) for _ in range(10))
+        await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
+    if m.chat.id == m.from_user.id:
+        l = await m.reply('<i>Generating Your Answer 🥲..</i>')
+        await s(1.5)
+        await l.edit_text(pmmsg.format(nm, chtID), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?startgroup=true')]]))
+        await m.delete()
 
 
 ##-----------------–-———------------
