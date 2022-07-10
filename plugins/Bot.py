@@ -6,7 +6,7 @@ from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
 from resources.string import (pgentxt)
-from resources.replyKeyboard import (btn1)
+from resources.replyKeyboard import (btn1, b10, b9, b8, b7, b6, b5, b4, b3, b2, b1)
 
 
 @sree.on_message(filters.command(['password', 'passgen', 'pgen']))
@@ -32,29 +32,7 @@ async def radniompass(sree, m: Message):
 
 @sree.on_message(filters.regex('••Go To Home Menu••') & filters.private)
 async def home(sree, m: Message):
-    homebtn = [
-        [
-            ('Password-1'),
-            ('Password-2'),
-        ],
-        [
-            ('Password-3'),
-            ('Password-4'),
-        ],
-        [
-            ('Password-5'),
-            ('Password-6'),
-        ],
-        [
-            ('Password-7'),
-            ('Password-8'),
-        ],
-        [
-            ('Password-9'),
-            ('Password-10'),
-        ],
-    ]
-    await m.reply('')
+    await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1))
 
 
 
@@ -66,173 +44,52 @@ async def home(sree, m: Message):
 
 #Selecting password generating mode {}
 @sree.on_message(filters.regex('Password-1') & filters.private)
-async def rndpas1(sree, m: Message):
-    b1 = [
-        [
-            ('Password-1 (6)'),
-            ('Password-1 (8)'),
-        ],
-        [
-            ('Password-1 (10)'),
-            ('Password-1 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas1(sree, m: Message):    
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-2') & filters.private)
-async def rndpas2(sree, m: Message):
-    b2 = [
-        [
-            ('Password-2 (6)'),
-            ('Password-2 (8)'),
-        ],
-        [
-            ('Password-2 (10)'),
-            ('Password-2 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas2(sree, m: Message):    
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-3') & filters.private)
-async def rndpas3(sree, m: Message):
-    b3 = [
-        [
-            ('Password-3 (6)'),
-            ('Password-3 (8)'),
-        ],
-        [
-            ('Password-3 (10)'),
-            ('Password-3 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas3(sree, m: Message):    
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-4') & filters.private)
-async def rndpas4(sree, m: Message):
-    b4 = [
-        [
-            ('Password-4 (6)'),
-            ('Password-4 (8)'),
-        ],
-        [
-            ('Password-4 (10)'),
-            ('Password-4 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas4(sree, m: Message):    
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-5') & filters.private)
-async def rndpas5(sree, m: Message):
-    b5 = [
-        [
-            ('Password-5 (6)'),
-            ('Password-5 (8)'),
-        ],
-        [
-            ('Password-5 (10)'),
-            ('Password-5 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas5(sree, m: Message):    
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-6') & filters.private)
-async def rndpas6(sree, m: Message):
-    b6 = [
-        [
-            ('Password-6 (6)'),
-            ('Password-6 (8)'),
-        ],
-        [
-            ('Password-6 (10)'),
-            ('Password-6 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas6(sree, m: Message):   
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-7') & filters.private)
-async def rndpas7(sree, m: Message):
-    b7 = [
-        [
-            ('Password-7 (6)'),
-            ('Password-7 (8)'),
-        ],
-        [
-            ('Password-7 (10)'),
-            ('Password-7 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas7(sree, m: Message):   
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-8') & filters.private)
-async def rndpas8(sree, m: Message):
-    b8 = [
-        [
-            ('Password-8 (6)'),
-            ('Password-8 (8)'),
-        ],
-        [
-            ('Password-8 (10)'),
-            ('Password-8 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas8(sree, m: Message):  
     await m.reply('')
+
 
 @sree.on_message(filters.regex('Password-9') & filters.private)
-async def rndpas9(sree, m: Message):
-    b9 = [
-        [
-            ('Password-9 (6)'),
-            ('Password-9 (8)'),
-        ],
-        [
-            ('Password-9 (10)'),
-            ('Password-9 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas9(sree, m: Message):   
     await m.reply('')
 
+
 @sree.on_message(filters.regex('Password-10') & filters.private)
-async def rndpas10(sree, m: Message):
-    b10 = [
-        [
-            ('Password-10 (6)'),
-            ('Password-10 (8)'),
-        ],
-        [
-            ('Password-10 (10)'),
-            ('Password-10 (12)'),
-        ],
-        [
-            ('••Go To Home Menu••')
-        ],
-    ]
+async def rndpas10(sree, m: Message):    
     await m.reply('')
 
 
