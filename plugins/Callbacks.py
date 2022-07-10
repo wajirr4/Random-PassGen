@@ -3,7 +3,7 @@ import platform
 import random, string
 from pyrogram import Client as sree
 from pyrogram import filters, __version__ as pyro
-from resources.string import (repotxt, statxt, helptxt)
+from resources.string import repotxt, statxt, helptxt
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 @sree.on_callback_query()
