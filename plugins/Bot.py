@@ -37,9 +37,10 @@ async def radniompass(sree, m: Message):
     if m.chat.id == m.from_user.id:
         l = await m.reply('<i>Generating Your Answer 🥲..</i>')
         await s(1.5)
-        await l.edit_text(pmmsg.format(nm, chtID), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?startgroup=true')]]))
+        z = await l.edit_text(pmmsg.format(nm, chtID), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?startgroup=true')]]))
         await m.delete()
-        #await l.delete
+        await s(20)
+        await z.delete()
 
 
 ##-----------------–-———------------
@@ -50,8 +51,6 @@ async def radniompass(sree, m: Message):
 async def home(sree, m: Message):
     nm = m.from_user.first_name
     await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1))
-
-
 
 
 ##----------------------------------
