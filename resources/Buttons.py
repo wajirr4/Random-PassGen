@@ -5,7 +5,7 @@ strtbtn = [
     [
         InlineKeyboardButton(
             'Support',
-            url="https://silentverse"
+            url="https://t.me/silentverse"
         ),
         InlineKeyboardButton(
             'Source',
