@@ -11,7 +11,7 @@ async def start(sree, m: Message):
     nm = m.from_user.first_name
     uid = m.from_user.id
     chtid = m.chat.id
-    await m.reply_sticker("CAACAgUAAx0CWOSA3AABBtloYspMfkBVg1TaL_du9BzO-Qc_E8QAAqsGAAJmnjhW4cdNUQVx0CUpBA")
+    await CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA
     a = await m.reply(chtid, f"Hey, [{nm}](tg://user?id={uid}) 🙋")
     await sleep(0.5)
     b = await a.edit_text("Starting Bot Server For You..")
