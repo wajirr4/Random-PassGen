@@ -2,6 +2,7 @@ import re
 import platform
 import random, string
 from pyrogram import Client as sree
+from plugins.Buttons import homebtn, strtbtn
 from pyrogram import filters, __version__ as pyro
 from resources.string import repotxt, statxt, helptxt
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
