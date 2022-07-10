@@ -16,7 +16,7 @@ async def close_(Client, cb: CallbackQuery):
         await cb.message.delete()
     elif cb.data == "repo_":
         await cb.answer("RandomPassword's Source By @ShiningOff")
-        await cb.message.edit_text(repotxt.format(nm), reply_markup=InlineKeyboardMarkup(homebtn))
+        await cb.message.edit_text(repotxt.format(nm), reply_markup=InlineKeyboardMarkup(homebtn), disable_web_page_preview=True)
     elif cb.data == "home_":
         await cb.answer("Home menu")
         await cb.message.edit_text(statxt.format(nm, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
