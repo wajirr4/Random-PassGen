@@ -21,7 +21,7 @@ async def radniompass(sree, m: Message):
     #await msgg.edit_text(f"<b><u>Your Password is Generated Successfully✅</u>\n\nPassword</b>:- <code>{P}</code>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Change Password", callback_data="chngpass1")]]))
 
     if m.chat.id == m.from_user.id:
-        await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1))
+        await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1, one_time_keyboard=True))
 
 
 
