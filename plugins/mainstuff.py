@@ -9,21 +9,20 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 @sree.on_message(filters.command('help'))
 async def help(sree, m: Message):
-    #nm = m.from_user.first_name
+    nm = m.from_user.first_name
     uid = m.from_user.id
     chtid = m.chat.id
     await m.reply_sticker('CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA')
-    await m.reply(
-        """<b>Meow <code>{}</code> .</b>
+    await m.reply(f"""<b>Meow <code>{nm}</code> .</b>
 <b><u>Commands</u></b>
 /start : To Start the bot.
 /help : To get Help Menu.
 /ping or /on : To check Alive and ping of bot.
 /repo or /source : To get Source Code of @{} .
 /pgen : Use and explorer.
-    ➥ [<code>Work in PM only</code>]
+    ➥ <code>Work in PM only</code>
 /sgen : Use and explorer.
-    ➥ [<code>Work in Group only</code>]""".format(m.from_user.first_name),
+    ➥ <code>Work in Group only</code>""",
         reply_markup=InlineKeyboardMarkup(homebtn),
         disable_web_page_preview=True,
     )
