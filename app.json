@@ -33,6 +33,10 @@
         "API_HASH": {
             "description": "App Hash from my.telegram.org/apps",
             "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Bot Username without @",
+            "required": true
         }
     }
 }
