@@ -5,7 +5,7 @@ import random, string
 from pyrogram import Client as sree
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
-from resources.string import (pgentxt)
+from resources.string import (pgentxt, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10)
 from resources.replyKeyboard import (btn1, b10, b9, b8, b7, b6, b5, b4, b3, b2, b1)
 
 
@@ -44,53 +44,63 @@ async def home(sree, m: Message):
 
 #Selecting password generating mode {}
 @sree.on_message(filters.regex('Password-1') & filters.private)
-async def rndpas1(sree, m: Message):    
-    await m.reply('')
+async def rndpas1(sree, m: Message):   
+    nm = m.from_user.first_name 
+    await m.reply(t1.format(nm), reply_markup=ReplyKeyboardMarkup(b1, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-2') & filters.private)
-async def rndpas2(sree, m: Message):    
-    await m.reply('')
+async def rndpas2(sree, m: Message): 
+    nm = m.from_user.first_name   
+    await m.reply(t2.format(nm), reply_markup=ReplyKeyboardMarkup(b2, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-3') & filters.private)
-async def rndpas3(sree, m: Message):    
-    await m.reply('')
+async def rndpas3(sree, m: Message):  
+    nm = m.from_user.first_name  
+    await m.reply(t3.format(nm), reply_markup=ReplyKeyboardMarkup(b3, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-4') & filters.private)
-async def rndpas4(sree, m: Message):    
-    await m.reply('')
+async def rndpas4(sree, m: Message): 
+    nm = m.from_user.first_name   
+    await m.reply(t4.format(nm), reply_markup=ReplyKeyboardMarkup(b4, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-5') & filters.private)
-async def rndpas5(sree, m: Message):    
-    await m.reply('')
+async def rndpas5(sree, m: Message):
+    nm = m.from_user.first_name    
+    await m.reply(t5.format(nm), reply_markup=ReplyKeyboardMarkup(b5, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-6') & filters.private)
-async def rndpas6(sree, m: Message):   
-    await m.reply('')
+async def rndpas6(sree, m: Message): 
+    nm = m.from_user.first_name  
+    await m.reply(t6.format(nm), reply_markup=ReplyKeyboardMarkup(b6, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-7') & filters.private)
-async def rndpas7(sree, m: Message):   
-    await m.reply('')
+async def rndpas7(sree, m: Message): 
+    nm = m.from_user.first_name  
+    await m.reply(t7.format(nm), reply_markup=ReplyKeyboardMarkup(b7, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-8') & filters.private)
-async def rndpas8(sree, m: Message):  
-    await m.reply('')
+async def rndpas8(sree, m: Message): 
+    nm = m.from_user.first_name 
+    await m.reply(t8.format(nm), reply_markup=ReplyKeyboardMarkup(b8, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-9') & filters.private)
-async def rndpas9(sree, m: Message):   
-    await m.reply('')
+async def rndpas9(sree, m: Message):
+    nm = m.from_user.first_name   
+    await m.reply(t9.format(nm), reply_markup=ReplyKeyboardMarkup(b9, one_time_keyboard=True, resize_keyboard=True))
 
 
 @sree.on_message(filters.regex('Password-10') & filters.private)
-async def rndpas10(sree, m: Message):    
-    await m.reply('')
+async def rndpas10(sree, m: Message):  
+    nm = m.from_user.first_name  
+    await m.reply(t10.format(nm), reply_markup=ReplyKeyboardMarkup(b10, one_time_keyboard=True, resize_keyboard=True))
 
 
 
