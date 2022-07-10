@@ -1,6 +1,41 @@
 #from pyrogram import Client as sree
 
 
+statxt = """<b>Meow Meow <code>{}</code> !</b>
+
+<i><u>I am Strong RandomPassword generator made by python with pyrogram library</u>.</i>
+
+•Python-Version• : <code>{}</code>
+•Pyrogram-Version• : <code>{}</code>
+
+<i>Generate Your Password freely and if you facing any issue 
+let us know at @SilentVerse .</i>
+"""
+
+
+helptxt = """<b>Meow <code>{}</code> .</b>
+
+<b><u>Commands</u></b>
+
+<code>/start</code> : To Start the bot.
+
+<code>/help</code> : To get Help Menu.
+
+<code>/ping</code> or <code>/on</code> : To check Alive and ping of bot.
+
+<code>/repo</code> or <code>/source</code> : To get Source Code of @{} .
+
+<code>/pgen</code> : Use and explorer.
+    ➥ [<code>Work in PM only</code>]
+
+<code>/sgen</code> : Use and explorer.
+    ➥ [<code>Work in Group only</code>]
+
+"""
+
+
+
+
 grpmsg = """<b>Meow <code>{}</code> !</b>
 
 <i><u>This Chat is not private</u>.</i>
