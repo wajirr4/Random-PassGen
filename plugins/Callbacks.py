@@ -9,6 +9,9 @@ async def close_(Client, cb: CallbackQuery):
     if cb.data == "close_":
         await cb.answer("Menu Closed!")
         await cb.message.delete()
+    elif cb.data == "repo_":
+        await cb.answer("RandomPassword's Source By @ShiningOff")
+        await cb.message.edit_text(repotxt.format(message.from_user.first_name), reply_markup=InlineKeyboardMarkup(homebtn))
     #---------change pass for {10} digits-------
     elif cb.data == "chngpass1":
         Pass1 = string.ascii_letters + string.digits
