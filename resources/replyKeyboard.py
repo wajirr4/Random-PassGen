@@ -33,7 +33,7 @@ b1 = [
         ('Password-1 (8)'),
     ],
     [
-        ('Password-1-10'),
+        ('Generate-1-10'),
         ('Password-1 (12)'),
     ],
     [
