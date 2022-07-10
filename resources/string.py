@@ -26,10 +26,10 @@ helptxt = """<b>Meow <code>{}</code> .</b>
 <code>/repo</code> or <code>/source</code> : To get Source Code of @{} .
 
 <code>/pgen</code> : Use and explorer.
-    ➥ [<code>Work in PM only</code>]
+    ➥ [<a href="https://t.me/Rexrebot?start=true">Work in PM only</a>]
 
 <code>/sgen</code> : Use and explorer.
-    ➥ [<code>Work in Group only</code>]
+    ➥ [<a href="https://t.me/Rexrebot?startgroup=true">Work in Group only</a>]
 
 """
 
