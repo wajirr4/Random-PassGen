@@ -47,4 +47,4 @@ async def ping(sree, m: Message):
     py = platform.python_version()
     pong1 = (datetime.now() - start).microseconds / 1000
     pong2 = str(round((end_time - start_time) * 1000, 3)) + " ms"
-    await b.edit_text("<b>❍ Ping Pong!🏓\n\n➥ <u><i>Yeah Bot Is Running Perfectly!!⚡</i></u>\n\n❅Server Ping: <code>{} ms</code>\n❅Bot Ping</b>: <code>{}</code>\n❅Uptime: <code>{}</code>\n❅Python Version: <code>{}</code>\n❅Pyrogram Version: <code>{}</code>".format(pong1, pong2, uptime, py, pyrov))             
+    await b.edit_text("<b>❍ Ping Pong!🏓\n\n➥ <i>Yeah Bot Is Running Perfectly!!⚡</i>\n\n❅Server Ping: <code>{} ms</code>\n❅Bot Ping</b>: <code>{}</code>\n❅Uptime: <code>{}</code>\n❅Python Version: <code>{}</code>\n❅Pyrogram Version: <code>{}</code>".format(pong1, pong2, uptime, py, pyrov))             
