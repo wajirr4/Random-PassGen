@@ -3,7 +3,7 @@
 
 grpmsg = """<b>Meow <code>{}</code> !</b>
 
-<i><u>This Chat is not private</u>.<i>
+<i><u>This Chat is not private</u>.</i>
 <b>
 Chat founded as Group!
 ChatID : <code>{}</code>
@@ -13,7 +13,7 @@ To use this command you have to do in my pm! 😌</b>
 
 pmmsg = """<b>Meow <code>{}</code> !</b>
 
-<i><u>This Chat is private</u>.<i>
+<i><u>This Chat is private</u>.</i>
 <b>
 Chat founded as Private! 
 ChatID : <code>{}</code>
