@@ -12,17 +12,16 @@ from resources.replyKeyboard import (btn1, b10, b9, b8, b7, b6, b5, b4, b3, b2, 
 
 
 @sree.on_message(filters.command(['password', 'passgen', 'pgen']))
-async def radniompass(sree, m: Message):
+async def radniompass01(sree, m: Message):
     nm = m.from_user.first_name
-    chtID = m.chat.id
     if m.chat.id != m.from_user.id:
         l = await m.reply('<i>Generating Your Answer 🥲..</i>')
         await s(1.5)
-        k = await l.edit_text(grpmsg.format(nm, chtID), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?start=true')],[InlineKeyboardButton("Close Menu!", callback_data="close_")]]))       
+        k = await l.edit_text(grpmsg.format(nm, m.chat.id), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?start=true')],[InlineKeyboardButton("Close Menu!", callback_data="close_")]]))       
         await m.delete()
         await s(20)
         await k.delete()
-    elif m.chat.id == m.from_user.id:
+    if m.chat.id == m.from_user.id:
         await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1, one_time_keyboard=True))
 
 
@@ -40,6 +39,7 @@ async def radniompass(sree, m: Message):
         await s(1.5)
         await l.edit_text(pmmsg.format(nm, chtID), reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Go To My Pm!", url=f'https://t.me/{BOT_USERNAME}?startgroup=true')]]))
         await m.delete()
+        #await l.delete
 
 
 ##-----------------–-———------------
