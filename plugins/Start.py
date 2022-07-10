@@ -1,6 +1,7 @@
 from asyncio import sleep
+import platform
 from pyrogram import Client as sree
-from pyrogram import filters
+from pyrogram import filters, __version__ as pyro
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 
@@ -15,7 +16,6 @@ async def start(sree, m: Message):
     await sleep(1)
     c = await b.edit_text("Server Started Successfully ✅\n\nHere we Go🥳!!")
     await sleep(0.4)
-    await c.delete()
-    await m.reply_photo(photo="https://telegra.ph/file/92df9a7eb2a28fa462342.jpg", caption=f"Hey {nm},\n\nI am strong random Password Generator For your social media accounts so that you can keep your accounts safe from cheaters//hackers\n\nTry /pgen to generate your random password  \n\nNote* :- This Bot Is Under __maintenance__ More info will add soon! 🔜👷", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Close Menu", callback_data="close_")]]))
+    await c.edit_text(statxt.format(nm, platform.python_version(), pyro))
     await sleep(0.2)
     await m.delete()   
