@@ -39,10 +39,10 @@ repotxt = """<b>Meow Meow <code>{}</code></b>.
 on pyrogram library.
 
 Bot Source Code: <a href='https://github.com/ItsmeHyper13/Random-PassGen'>RandomPassword Repository.</a>
-Bot's License : <a href='https://github.com/ItsmeHyper13/Random-PassGen/blob/sree/LICENSE'>GPL-3.0 license<a>
+Bot's License : <a href='https://github.com/ItsmeHyper13/Random-PassGen/blob/sree/LICENSE'>GPL-3.0 license</a>
 Supported Hosting Server : This Repo supports <code>Heroku</code>, <code>Okteto</code>, <code>Vps</code> and <code>Local Deployment</code> too
 
-<i>Any Query about repository Then ask at @SilentVerse
+<i>Any Query about repository Then ask at @SilentVerse</i>
 """
 
 
