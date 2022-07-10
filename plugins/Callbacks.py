@@ -1,7 +1,9 @@
 import re
+import platform
 import random, string
 from pyrogram import Client as sree
-from pyrogram import filters
+from pyrogram import filters, __version__ as pyro
+from resources.string import (repotxt, statxt, helptxt)
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 @sree.on_callback_query()
@@ -11,7 +13,10 @@ async def close_(Client, cb: CallbackQuery):
         await cb.message.delete()
     elif cb.data == "repo_":
         await cb.answer("RandomPassword's Source By @ShiningOff")
-        await cb.message.edit_text(repotxt.format(message.from_user.first_name), reply_markup=InlineKeyboardMarkup(homebtn))
+        await cb.message.edit_text(statxt.format(message.from_user.first_name), reply_markup=InlineKeyboardMarkup(homebtn))
+    elif cb.data == "home_":
+        await cb.answer("RandomPassword's Source By @ShiningOff")
+        await cb.message.edit_text(repotxt.format(message.from_user.first_name, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
     #---------change pass for {10} digits-------
     elif cb.data == "chngpass1":
         Pass1 = string.ascii_letters + string.digits
