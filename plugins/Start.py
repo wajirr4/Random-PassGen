@@ -1,5 +1,6 @@
 from asyncio import sleep
 import platform
+from resources.string import statxt
 from resources.Buttons import strtbtn
 from pyrogram import Client as sree
 from pyrogram import filters, __version__ as pyro
@@ -12,7 +13,7 @@ async def start(sree, m: Message):
     uid = m.from_user.id
     chtid = m.chat.id
     await m.reply_sticker('CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA')
-    a = await m.reply(chtid, f"Hey, [{nm}](tg://user?id={uid}) 🙋")
+    a = await m.reply(f"Hey, [{nm}](tg://user?id={uid}) 🙋")
     await sleep(0.5)
     b = await a.edit_text("Starting Bot Server For You..")
     await sleep(1)
