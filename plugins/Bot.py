@@ -22,7 +22,7 @@ async def radniompass(sree, m: Message):
         await m.delete()
         await s(20)
         await k.delete()
-    if m.chat.id == m.from_user.id:
+    elif m.chat.id == m.from_user.id:
         await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1, one_time_keyboard=True))
 
 
