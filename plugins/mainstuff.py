@@ -1,6 +1,6 @@
 from asyncio import sleep
 import platform
-from resources.string import helptxt, repotxt
+from resources.string import repotxt
 from plugins.Buttons import homebtn
 from pyrogram import Client as sree
 from pyrogram import filters, __version__ as pyro
@@ -14,8 +14,19 @@ async def help(sree, m: Message):
     chtid = m.chat.id
     await m.reply_sticker('CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA')
     await m.reply(
-        helptxt.format(nm),
+        """<b>Meow <code>{}</code> .</b>
+<b><u>Commands</u></b>
+<code>/start</code> : To Start the bot.
+<code>/help</code> : To get Help Menu.
+<code>/ping</code> or <code>/on</code> : To check Alive and ping of bot.
+<code>/repo</code> or <code>/source</code> : To get Source Code of @{} .
+<code>/pgen</code> : Use and explorer.
+    ➥ [<code>Work in PM only</code>]
+<code>/sgen</code> : Use and explorer.
+    ➥ [<code>Work in Group only</code>]
+""".format(nm),
         reply_markup=InlineKeyboardMarkup(homebtn),
+        disable_web_page_preview=True,
     )
 
 @sree.on_message(filters.command(['repo', 'source']))
@@ -26,5 +37,6 @@ async def sourcecd(sree, m: Message):
     await m.reply_sticker('CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA')
     await m.reply(
         repotxt.format(nm),
-        reply_markup=InlineKeyboardMarkup(homebtn)
+        reply_markup=InlineKeyboardMarkup(homebtn),
+        disable_web_page_preview=True,
     )
