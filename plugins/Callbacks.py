@@ -13,10 +13,10 @@ async def close_(Client, cb: CallbackQuery):
         await cb.message.delete()
     elif cb.data == "repo_":
         await cb.answer("RandomPassword's Source By @ShiningOff")
-        await cb.message.edit_text(statxt.format(message.from_user.first_name), reply_markup=InlineKeyboardMarkup(homebtn))
+        await cb.message.edit_text(statxt.format(cb.from_user.first_name), reply_markup=InlineKeyboardMarkup(homebtn))
     elif cb.data == "home_":
         await cb.answer("RandomPassword's Source By @ShiningOff")
-        await cb.message.edit_text(repotxt.format(message.from_user.first_name, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
+        await cb.message.edit_text(repotxt.format(cb.from_user.first_name, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
     #---------change pass for {10} digits-------
     elif cb.data == "chngpass1":
         Pass1 = string.ascii_letters + string.digits
