@@ -28,7 +28,7 @@ async def radniompass(sree, m: Message):
 @sree.on_message(filters.command(['gen', 'create', 'sgen']))
 async def radniompass(sree, m: Message):
     nm = m.from_user.first_name
-    chtID = m.chat.idl
+    chtID = m.chat.id
     if m.chat.id != m.from_user.id:
         msgg = await m.reply('__Generating your password plish wait..__')   
         Pass = string.ascii_letters + string.digits + string.punctuation
