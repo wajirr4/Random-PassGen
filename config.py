@@ -9,3 +9,4 @@ from dotenv import load_dotenv
 API_ID = int(getenv("API_ID", "4110592"))
 API_HASH = getenv("API_HASH", "aa7c849566922168031b95212860ede0")
 BOT_TOKEN = getenv("BOT_TOKEN", None)
+BOT_USERNAME = getenv("BOT_USERNAME", None)
