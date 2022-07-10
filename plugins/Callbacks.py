@@ -2,6 +2,7 @@ import re
 import platform
 import random, string
 from pyrogram import Client as sree
+from config import BOT_USERNAME
 from plugins.Buttons import homebtn, strtbtn
 from pyrogram import filters, __version__ as pyro
 from resources.string import repotxt, statxt, helptxt
@@ -15,13 +16,13 @@ async def close_(Client, cb: CallbackQuery):
         await cb.message.delete()
     elif cb.data == "repo_":
         await cb.answer("RandomPassword's Source By @ShiningOff")
-        await cb.message.edit_text(statxt.format(nm), reply_markup=InlineKeyboardMarkup(homebtn))
+        await cb.message.edit_text(repotxt.format(nm), reply_markup=InlineKeyboardMarkup(homebtn))
     elif cb.data == "home_":
         await cb.answer("Home menu")
-        await cb.message.edit_text(repotxt.format(nm, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
+        await cb.message.edit_text(statxt.format(nm, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
     elif cb.data == "help_":
         await cb.answer("Help Menu")
-        await cb.message.edit_text(helptxt.format(nm), reply_markup=InlineKeyboardMarkup(homebtn))
+        await cb.message.edit_text(helptxt.format(nm, BOT_USERNAME), reply_markup=InlineKeyboardMarkup(homebtn))
     #---------change pass for {10} digits-------
     elif cb.data == "chngpass1":
         Pass1 = string.ascii_letters + string.digits
