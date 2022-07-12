@@ -9,6 +9,7 @@ from pyrogram import filters, __version__ as pyrov
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from __main__ import lol
 
+PING_IMG = "https://telegra.ph/file/e4673cd367da976ab9091.mp4"
 
 def get_readable_time(seconds: int) -> str:
     count = 0
@@ -40,8 +41,9 @@ async def ping(sree, m: Message):
     start_time = time.time()
     a = await m.reply("⚡")
     end_time = time.time()
-    await sleep(1) 
-    b = await a.edit_text("<i>Pinging... wait!!</i>")
+    await sleep(1)
+    await a.delete() 
+    b = await m.reply_photo(photo=PING_IMG, caption="<i>Pinging... wait!!</i>✨")
     await sleep(1.5)
     uptime = get_readable_time((time.time() - lol))
     py = platform.python_version()
