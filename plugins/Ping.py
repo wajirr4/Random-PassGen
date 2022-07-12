@@ -43,7 +43,7 @@ async def ping(sree, m: Message):
     end_time = time.time()
     await sleep(1)
     await a.delete() 
-    b = await m.reply_photo(photo=PING_IMG, caption="<i>Pinging... wait!!</i>✨")
+    b = await m.reply_video(video=PING_IMG, caption="<i>Pinging... wait!!</i>✨")
     await sleep(1.5)
     uptime = get_readable_time((time.time() - lol))
     py = platform.python_version()
