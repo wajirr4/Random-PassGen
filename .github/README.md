@@ -34,7 +34,7 @@
 </blockquote>
 </details>
 <details><summary><strong>❍&nbsp;Deploy On <a href="https://termux.com/"><code>Termux⚙️</code></a></strong></summary>
-<blockquote><strong>Hey You can deploy this bot on <code>Termux</code> very easly Just follow the steps!!</strong><br><br>
+<blockquote><strong>Hey You can deploy this bot on <code>Termux</code> very easly Just follow the steps!!&nbsp;[Caution bot will stop once u kill the terminal]</strong><br><br>
 &nbsp;1.&nbsp;Download Termux From <a href="https://f-droid.org/repo/com.termux_118.apk"><code>HERE!</code></a><br>
 &nbsp;2.&nbsp;Now Install all important packages which given Below!<br><br>
 <code>apt update && apt upgrade -y</code><br>
