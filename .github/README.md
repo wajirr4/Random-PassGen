@@ -41,13 +41,16 @@
 <code>pkg install git -y</code><br>
 <code>pkg install python3</code><br>
 <code>pip install pyrogram</code><br>
-<code>git clone [your <a href="https://github.com/ItsmeHyper13/Random-PassGen/fork">forked repo</a>] </code><br><br>
-<code>cd Random-PassGen</code>&nbsp; or <code>cd Your directory name</code><br><br>
-<code>pip3 install --upgrade pip setuptools</code><br><br>
-<code>pip install -U -r requirements.txt</code><br><br>
-<code>nano config.py</code><br><br>
+<code>git clone [your <a href="https://github.com/ItsmeHyper13/Random-PassGen/fork">forked repo</a>] </code><br>
+<code>cd Random-PassGen</code>&nbsp; or <code>cd Your directory name</code><br>
+<code>pip3 install --upgrade pip setuptools</code><br>
+<code>pip install -U -r requirements.txt</code><br>
+<code>nano config.py</code><br>
 <p><i>❍ Now add your <code>BOT_TOKEN</code>&nbsp;and&nbsp;<code>BOT_USERNAME</code></i></p><br>
-<p>❍ Save that file and run&nbsp;<code>python3 main.py</code></p>
+<p>❍ Save that file and run&nbsp;<code>python3 main.py</code></p><br><br>
+<strong>❍ 2nd way here!! </strong><br><br>
+<code>apt update && apt upgrade -y && pkg install git -y && pkg install python3 && pip install pyrogram && git clone https://github.com/ItsmeHyper13/Random-PassGen && cd Random-PassGen && pip3 install --upgrade pip setuptools && pip install -U -r requirements.txt && nano config.py</code><br><br>
+<strong>After Doing this Just Save and run <code>python3 main.py</code></strong>
 <p>Enjoy! 🚀 💫</p>
 </blockquote>
 </details>
