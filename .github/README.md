@@ -73,7 +73,7 @@ python3 main.py #Save that file and run it
 <h3><strong><i>Forks nd Stars🍽️</i></strong></h3>
 <pre>
 <p align="center">
-<img src="https://img.shields.io/github/license/ItsmeHyper13/DevuMusic.svg"> <img src="https://img.shields.io/github/forks/ItsmeHyper13/DevuMusic.svg"> <img src="https://img.shields.io/github/stars/ItsmeHyper13/Random-PassGen.svg">
+<img src="https://img.shields.io/github/license/ItsmeHyper13/Random-PassGen.svg"> <img src="https://img.shields.io/github/forks/ItsmeHyper13/Random-PassGen.svg"> <img src="https://img.shields.io/github/stars/ItsmeHyper13/Random-PassGen.svg">
 <a href="https://github.com/ItsmeHyper13/Random-PassGen"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ItsmeHyper13&repo=Random-PassGen&theme=blue-green"></a>
 <a href="https://github.com/ItsmeHyper13/Random-PassGen/fork"><img src="https://img.shields.io/badge/Fork%20PasswordGen%20Bot-black?style=for-the-badge&logo=github"></a>
 </P>
