@@ -19,7 +19,7 @@
 <summary><h4><strong><i>Commands⚙️🛠️</i></strong></h4></summary>
 &nbsp;◍&nbsp;<code>/ping</code>&nbsp;:&nbsp;<strong>To Check Bot Ping Status.</strong><br>
 &nbsp;◍&nbsp;<code>/pgen</code>&nbsp;:&nbsp;<strong>Generate Password in bot's Pm.</strong><br>
-&nbsp;◍&nbsp;<code>/psgen</code>&nbsp;:&nbsp;<strong>Generate Password in any Group.</strong><br>
+&nbsp;◍&nbsp;<code>/sgen</code>&nbsp;:&nbsp;<strong>Generate Password in any Group.</strong><br>
 &nbsp;◍&nbsp;<code>/repo</code>&nbsp;:&nbsp;<strong>To Get Bot's Source Code.</strong>
 </details><details>
 <summary><h4><strong><i>Deployment🚀</i></strong></h4></summary>
