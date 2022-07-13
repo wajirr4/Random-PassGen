@@ -1,5 +1,7 @@
 <h3 align="center"><strong><code>Python Password Generator</code></strong></h3>
+
 <img src="https://github.com/ItsmeHyper13/Random-PassGen/blob/sree/resources/sree.gif" alt="Unable To serve You">
+
 <blockquote><img src="https://readme-typing-svg.herokuapp.com?duration=3000&color=00FF09&background=7F808800&multiline=true&height=100&lines=%E2%80%A2%E2%80%A2Random+Password+Generator+%F0%9F%8F%93%E2%80%A2%E2%80%A2++;%E2%9E%A5+Made+By+Python%F0%9F%90%8D+On+Pyrogram;Library!+%F0%9F%8E%80">
 <strong><i>❍&nbsp;Telegram bot which generate Strong random password Made By python with pyrogram library 💫💝!</i></strong><br><br>
 ❍&nbsp;<strong><i>Facing Any issue related to this <a href="https://github.com/ItsmeHyper13/Random-PassGen">Repository</a> then just join <a href="https://t.me/SilentVerse">@SilentVerse</a> and drop your problem we will glad to help you out 💫</i></strong>
@@ -67,12 +69,14 @@ python3 main.py #Save that file and run it
 </details>
 </details>
 </p>
-<p align="center">
+<p>
 <h3><strong><i>Forks nd Stars🍽️</i></strong></h3>
 <pre>
+<p align="center">
 <img src="https://img.shields.io/github/license/ItsmeHyper13/DevuMusic.svg"> <img src="https://img.shields.io/github/forks/ItsmeHyper13/DevuMusic.svg"> <img src="https://img.shields.io/github/stars/ItsmeHyper13/Random-PassGen.svg">
 <a href="https://github.com/ItsmeHyper13/Random-PassGen"><img src="https://github-readme-stats.vercel.app/api/pin/?username=ItsmeHyper13&repo=Random-PassGen&theme=blue-green"></a>
 <a href="https://github.com/ItsmeHyper13/Random-PassGen/fork"><img src="https://img.shields.io/badge/Fork%20PasswordGen%20Bot-black?style=for-the-badge&logo=github"></a>
+</P>
 </pre>
 </p>
 <p>
