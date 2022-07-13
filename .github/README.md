@@ -82,8 +82,7 @@ python3 main.py #Save that file and run it
 <p>
 <details>
 <summary><h3><strong>Credits💕</strong></h3></summary>
-<i>All credit Goes To these peoples</i><br>
-<code><a href="https://t.me/HYPER_AD13">{🇮🇳} 𝙷𝚈𝙿𝙴𝚁 𝙺𝙸𝙽𝙶</a></code><br>
+<strong>All credit Goes To</strong>&nbsp;<code><a href="https://t.me/HYPER_AD13">{🇮🇳} 𝙷𝚈𝙿𝙴𝚁 𝙺𝙸𝙽𝙶</a></code><br>
 <code>Telegram:- <a href="https://t.me/ShiningOff">@ShiningOff</a> | <a href="https://t.me/LostKiddz">@LostKiddz</a></code><br>
 <code>Github:- <a href="https://github.com/ItsmeHyper13">ItsmeHyper13</a></code><br>
 </details>
