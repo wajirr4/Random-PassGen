@@ -56,7 +56,7 @@
 &nbsp;1.&nbsp;Setup Your <code>VPS</code>&nbsp;First!<br>
 
 ```sh
-git clone <forked repo> # get from https://github.com/ItsmeHyper13/Random-PassGen/fork
+git clone <forked repo> # git clone https://github.com/ItsmeHyper13/Random-PassGen
 cd Random-PassGen or cd Your directory name
 pip3 install --upgrade pip setuptools
 pip install -U -r requirements.txt
