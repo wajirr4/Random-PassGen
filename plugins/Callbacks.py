@@ -22,7 +22,7 @@ async def close_(Client, cb: CallbackQuery):
         await cb.message.edit_text(statxt.format(nm, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
     elif cb.data == "help_":
         await cb.answer("Help Menu")
-        await cb.message.edit_text(helptxt.format(nm, BOT_USERNAME), reply_markup=InlineKeyboardMarkup(homebtn))
+        await cb.message.edit_text(helptxt.format(nm, BOT_USERNAME), reply_markup=InlineKeyboardMarkup(homebtn), disable_web_page_preview=True)
     #---------change pass for {10} digits-------
     elif cb.data == "chngpass1":
         Pass1 = string.ascii_letters + string.digits
