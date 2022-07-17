@@ -15,7 +15,7 @@ async def help(sree, m: Message):
     chtid = m.chat.id
     await m.reply_sticker('CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA')
     await m.reply(
-        helptxt.format(nm, BOT_USERNAME),
+        helptxt.format(nm, BOT_USERNAME, BOT_USERNAME, BOT_USERNAME),
         reply_markup=InlineKeyboardMarkup(homebtn),
         disable_web_page_preview=True,
     )
@@ -27,7 +27,7 @@ async def sourcecd(sree, m: Message):
     chtid = m.chat.id
     await m.reply_sticker('CAACAgUAAx0CWOSA3AABBtl5YspfsV3UeUpFs3pfmeoy0UMM_tMAAn8FAAIvIkBW70JZlNo13zcpBA')
     await m.reply(
-        repotxt.format(nm),
+        repotxt.format(nm, BOT_USERNAME),
         reply_markup=InlineKeyboardMarkup(homebtn),
         disable_web_page_preview=True,
     )
