@@ -26,16 +26,16 @@ helptxt = """<b>Meow <code>{}</code> .</b>
 <code>/repo</code> or <code>/source</code> : To get Source Code of @{} .
 
 <code>/pgen</code> : Use and explorer.
-    ➥ [<a href="https://t.me/Rexrebot?start=true">Work in PM only</a>]
+    ➥ [<a href="https://t.me/{}?start=true">Work in PM only</a>]
 
 <code>/sgen</code> : Use and explorer.
-    ➥ [<a href="https://t.me/Rexrebot?startgroup=true">Work in Group only</a>]
+    ➥ [<a href="https://t.me/{}?startgroup=true">Work in Group only</a>]
 
 """
 
 repotxt = """<b>Meow Meow <code>{}</code></b>.
 
-<a href='https://t.me/Rexrebot'>RandomPassword Robot</a> is made by <a href='https://python.org'>Python</a>
+<a href='https://t.me/{}'>RandomPassword Robot</a> is made by <a href='https://python.org'>Python</a>
 on pyrogram library.
 
 Bot Source Code: <a href='https://github.com/ItsmeHyper13/Random-PassGen'>RandomPassword Repository.</a>
