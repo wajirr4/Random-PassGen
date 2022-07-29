@@ -1,10 +1,10 @@
 # Powered by @HYPER_AD13 | @ShiningOff. 
 # Dear Pero ppls Plish Don't remove this line from here🌚
 
-import random, string, platform, __version__ as pyro
+import random, string, platform
 from asyncio import sleep as s
 from pyrogram import Client as sree
-from pyrogram import filters
+from pyrogram import filters, __version__ as pyro
 from config import BOT_USERNAME
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, ReplyKeyboardMarkup
 from resources.string import (pgentxt, t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, pmmsg, grpmsg, statxt)
