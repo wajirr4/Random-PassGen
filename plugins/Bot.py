@@ -54,7 +54,7 @@ async def home(sree, m: Message):
     await m.reply(pgentxt.format(nm), reply_markup=ReplyKeyboardMarkup(btn1))
 
 @sree.on_message(filters.regex('Start Page') & filters.private)
-async def home(sree, m: Message):
+async def munu_start(sree, m: Message):
     nm = m.from_user.first_name
     await m.reply(statxt.format(nm, platform.python_version(), pyro), reply_markup=ReplyKeyboardMarkup(strtbtn))
 
