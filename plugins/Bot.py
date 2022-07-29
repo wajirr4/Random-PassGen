@@ -56,7 +56,7 @@ async def home(sree, m: Message):
 @sree.on_message(filters.regex('Start Page') & filters.private)
 async def munu_start(sree, m: Message):
     nm = m.from_user.first_name
-    await m.reply(statxt.format(nm, platform.python_version(), pyro), reply_markup=ReplyKeyboardMarkup(strtbtn))
+    await m.reply(statxt.format(nm, platform.python_version(), pyro), reply_markup=InlineKeyboardMarkup(strtbtn))
 
 ##----------------------------------
 
