@@ -7,7 +7,7 @@ from asyncio import sleep
 from pyrogram import Client as sree
 from pyrogram import filters, __version__ as pyrov
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
-from __main__ import lol
+from main import lol
 
 PING_IMG = "https://telegra.ph/file/67dc081635ccd14064e63.jpg"
 
