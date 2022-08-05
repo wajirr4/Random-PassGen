@@ -9,7 +9,7 @@ statxt = """<b>Meow Meow <code>{}</code> !</b>
 •Pyrogram-Version• : <code>{}</code>
 
 <i>Generate Your Password freely and if you facing any issue 
-let us know at @SilentVerse .</i>
+let us know at @ANONBOTS1 .</i>
 """
 
 
@@ -23,7 +23,7 @@ helptxt = """<b>Meow <code>{}</code> .</b>
 
 <code>/ping</code> or <code>/on</code> : To check Alive and ping of bot.
 
-<code>/repo</code> or <code>/source</code> : To get Source Code of @{} .
+<code>/repo</code> or <code>/source</code> : To get Source of @{} .
 
 <code>/pgen</code> : Use and explorer.
     ➥ [<a href="https://t.me/{}?start=true">Work in PM only</a>]
@@ -38,11 +38,11 @@ repotxt = """<b>Meow Meow <code>{}</code></b>.
 <a href='https://t.me/{}'>RandomPassword Robot</a> is made by <a href='https://python.org'>Python</a>
 on pyrogram library.
 
-Bot Source Code: <a href='https://github.com/ItsmeHyper13/Random-PassGen'>RandomPassword Repository.</a>
-Bot's License : <a href='https://github.com/ItsmeHyper13/Random-PassGen/blob/sree/LICENSE'>GPL-3.0 license</a>
+Channel: <a href='https://t.me/probinnerbd'>ProBinnerBD.</a>
+Bot's License : <a href='https://t.me/probinnerbd'>GPL-3.0 license</a>
 Supported Hosting Server : This Repo supports <code>Heroku</code>, <code>Okteto</code>, <code>Vps</code> and <code>Local Deployment</code> too
 
-<i>Any Query about repository Then ask at @SilentVerse</i>
+<i>Any Query about repository Then ask at @ANONBOTS1</i>
 """
 
 
@@ -103,7 +103,7 @@ read and choose as you want to generate!!
 
 <i><u>Choose your types of password</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>  
+➥ <i>Developed By @ANONBOTS1</i>  
 """  
 
     
@@ -124,7 +124,7 @@ t1 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -140,7 +140,7 @@ t2 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -156,7 +156,7 @@ t3 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -172,7 +172,7 @@ t4 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -188,7 +188,7 @@ t5 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -204,7 +204,7 @@ t6 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -220,7 +220,7 @@ t7 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -236,7 +236,7 @@ t8 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -252,7 +252,7 @@ t9 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
 
 
@@ -268,9 +268,5 @@ t10 = """<b>Woi Woi <code>{}</code> !!</b>
 <i><u>Choose The limits of password like do u wana password of <code>6</code>, <code>8</code>, <code>10</code>, <code>12</code> Digits And select
 Your option</u></i>!!</b>
 
-➥ <i>Developed By @ShiningOff</i>              
+➥ <i>Developed By @ANONBOTS1</i>              
 """
-
-
-
-
