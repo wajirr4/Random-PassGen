@@ -3,7 +3,7 @@ from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 
 strtbtn = [
     [
-        InlineKeyboardButton(text='Support', url="https://t.me/silentverse"),
+        InlineKeyboardButton(text='Support', url="https://t.me/anonbots1"),
         InlineKeyboardButton(text='Source', callback_data="repo_")
     ],
     [        
